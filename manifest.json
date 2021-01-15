@@ -1,0 +1,24 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Verb Forms Checker",
+    "description": "Forming conjugations made easy",
+    "developer_name": "Ayub Aswad",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.5
+    },
+    "preferences": [
+        {
+            "id": "verbforms_keyword",
+            "type": "keyword",
+            "name": "Verb Forms Checker",
+            "default_value": "verb"
+        },
+        {
+            "id": "verbforms_apikey",
+            "type": "input",
+            "name": "Linguatools Conjugations' Rapid API key",
+            "description": "You can generate one at https://rapidapi.com/petapro/api/linguatools-conjugations"
+        }
+    ]
+}
